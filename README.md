@@ -1,2 +1,2 @@
 # Portfolio
-Porfólio desenvolvido exclusivamente para o GitHub
+Portfólio desenvolvido exclusivamente para o GitHub
