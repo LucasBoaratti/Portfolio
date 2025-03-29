@@ -1,0 +1,321 @@
+/* Estilizando o CSS em geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* Estilizando os conteúdo geral do site */
+
+body {
+    background-image: url("./Foto-de-Fundo.jpg"); /* Créditos da imagem: roybaseball. link da imagem: https://pt.wallpapers.com/foto/fotos-do-1920x1080-1920-x-1080-euvuqsv16kruvt57.html */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Dancing Script", sans-serif;
+    color: lime;
+}
+
+/* Estilizando o cabecalho */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 80px 10px;
+}
+
+.conteudo {
+    display: flex;
+    column-gap: 20px;
+}
+
+.conteudo a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilizando a minha apresentação */
+
+.apresentacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    font-size: 30px;
+}
+
+.apresentacao p {
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.imagem-1 {
+    margin-right: 30px;
+}
+
+.imagem-1 img {
+    width: 455px;
+    height: 390px;
+    border-radius: 15px;
+}
+
+/* Estilizando a parte do sobre mim */
+
+.sobre-mim {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    margin: 40px;
+}
+
+.sobre-mim p {
+    margin-left: 40px;
+    text-align: justify;  
+}
+
+.imagem-2 img {
+    width: 455px;
+    height: 340px;
+    border-radius: 15px;
+}
+
+/* Estilizando as minhas habilidades */
+
+.habilidades {
+    margin-top: 80px;
+}
+
+#titulo-habilidades {
+    font-size: 30px;
+}
+
+.habilidades h1 {
+    margin-bottom: 20px;
+}
+
+.linguagens {
+    background-color: #171BF2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.linguagens i {
+    font-size: 130px;
+}
+
+.linguagens img {
+    width: 131px;
+    height: 131px;
+}
+
+/* Estilizando os meus projetos */
+
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    column-gap: 20px;   
+}
+
+#titulo-projetos {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.projeto-1 {
+    background-color: #57CC99;
+    padding: 15px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eletrolucas h2 {
+    margin: 20px 0;
+}
+
+.eletrolucas a {
+    text-decoration: none;
+    color: black;
+}
+
+.projeto-2 {
+    background-color: #57CC99;
+    padding: 15px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pelucas h2 {
+    margin: 20px 0;
+}
+
+.pelucas a {
+    text-decoration: none;
+    color: black;
+}
+
+.projeto-3 {
+    background-color: #57CC99;
+    padding: 15px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogo-adivinhacao h2 {
+    margin: 20px 0;
+}
+
+.jogo-adivinhacao a {
+    text-decoration: none;
+    color: black;
+}
+
+.projetos-2 {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    column-gap: 20px;   
+}
+
+.projeto-4 {
+    background-color: #57CC99;
+    padding: 15px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.quiz h2 {
+    margin: 20px 0;
+}
+
+.quiz a {
+    text-decoration: none;
+    color: black;
+}
+
+.projeto-5 {
+    background-color: #57CC99;
+    padding: 15px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.jokempo h2 {
+    margin: 20px 0;
+}
+
+.jokempo a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilizando o rodapé */
+
+footer {
+    margin-top: 80px;
+    background: linear-gradient(to right, #007200, #00D800);
+    color: white;
+    padding: 15px;
+}
+
+#titulo-contatos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contatos-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter i {
+    font-size: 50px;
+    margin-right: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook i {
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.contatos-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram i {
+    font-size: 50px;
+    width: 70px;
+    height: 65px;
+    text-align: center;
+    margin-right: 10px;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github i {
+    font-size: 70px;
+    margin-left: 10px;
+    color: #6e40c9;
+}
